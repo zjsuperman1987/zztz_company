@@ -1,0 +1,98 @@
+@import "../styles/common";
+
+.main {
+    padding: 20px;
+  .main-login {
+    width: 350px;
+    margin: auto;
+    .img-logo {
+      width: 50%;
+      margin: auto;
+      img {
+        width: 100%;
+      }
+    }
+    .login-button {
+      width: 100%;
+    }
+    .register {
+      line-height: 25px;
+      border-color: #adb1b8 #a2a6ac #8d9096;
+      background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+      &:hover {
+        color: #82858a;
+        border-color: #a2a6ac #979aa1 #82858a;
+        background: #e7e9ec;
+      }
+    }
+    .login-form {
+      //border-radius: @border-radius;
+      //border: 1px solid #ddd;
+      padding: 20px;
+      ::v-deep {
+        .el-form-item {
+          margin-bottom: 24px;
+        }
+        .el-input__suffix {
+          .el-input__icon {
+            height: 32px;
+            line-height: 32px;
+          }
+        }
+        .el-input__inner {
+          height: 32px;
+          line-height: 32px;
+          padding: 0 26px;
+        }
+      }
+      h1 {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      .tips {
+        font-size: @fontSize12;
+        color: @descColor;
+        margin-bottom: 16px;
+        text-indent: 20px;
+        line-height: 24px;
+        a {
+          color: @aColor;
+        }
+      }
+      .forget {
+        font-size: @fontSize12;
+        color: @aColor;
+      }
+    }
+    .el-divider__text {
+      color: @descColor;
+      background: #fefef2;
+    }
+  }
+  .bottom {
+    font-size: @fontSize12;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    .line {
+      margin: 20px 0;
+      height: 1px;
+      background: linear-gradient(to right, #fff, @descColor , #fff);
+    }
+    .bottom-link {
+      a {
+        color: @aColor;
+        margin: 0 10px;
+      }
+    }
+    .copy-right {
+      padding: 10px 0;
+    }
+  }
+  .text{
+    text-align: center;
+    margin: 20px 0 20px;
+  }
+}
+

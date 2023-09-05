@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let arr = [1,3,6,2,3,6,3,6,2,6,9,7];
+        let array = [];
+        function handler(val){
+            for(let prop of arr) {
+                if(prop !== val) array.push(prop)
+            }
+            console.log(array)
+            arr = array
+            arr.unshift(val)
+            arr.push(val)
+            console.log(arr.reverse())
+            arr.splice(3,0,val,val)
+            console.log(arr)
+        }
+        handler(7)
+    </script>
+</body>
+</html>

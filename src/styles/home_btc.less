@@ -1,0 +1,74 @@
+@import "~@/styles/common.less";
+.buy-sell (@color) {
+  color: @color;
+  font-size: 22px;
+  margin-right: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main-container {
+  max-width: @maxWidth;
+  min-width: @minWidth;
+  margin: 20px 0;
+  ::v-deep.el-tabs--top{
+    margin-left: 20px;
+  }
+  ::v-deep.el-carousel {
+    margin: 10px 0;
+    .el-carousel__item {
+      a {
+        color: #1b2945;
+        &:hover {
+          color: @aHover;
+        }
+      }
+    }
+  }
+  .table {
+    ::v-deep.el-table__expanded-cell {
+      padding: 10px 20px;
+    }
+    .order-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .buySell {
+        padding: 0 0 2px 0;
+
+      }
+      .setting {
+        display: flex;
+        align-items: center;
+        .bType {
+          font-size: @fontSize14;
+          margin-right: 10px;
+        }
+        /deep/ .el-select {
+          width: 140px;
+        }
+      }
+    }
+    .expand {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .cancel {
+        font-size: @fontSize12;
+        color: @descColor;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+    }
+    .unit-price {
+      color: @unit-price;
+      font-size: @fontSize18;
+    }
+    .avatar {
+      margin-right: 4px;
+    }
+    .userInfo {
+      margin-left: 4px;
+      color: @descColor;
+    }
+  }
+}

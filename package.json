@@ -1,0 +1,48 @@
+{
+  "name": "telegram-store",
+  "version": "0.1.0",
+  "private": true,
+  "build-report": "vue-cli-service build --report",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "report": "vue-cli-service build --report",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "file-saver": "^2.0.5",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "v-viewer": "^1.5.1",
+    "vue": "^2.6.11",
+    "vue-avatar": "^2.3.3",
+    "vue-drag-resize": "^1.5.4",
+    "vue-i18n": "7.3.2",
+    "vue-qr": "^4.0.6",
+    "vue-router": "^3.4.3",
+    "vue-seamless-scroll": "^1.1.21",
+    "vue-socket.io": "^3.0.7",
+    "vuex": "^3.4.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-plugin-vuex": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "compression-webpack-plugin": "^6.0.1",
+    "crypto-js": "^4.0.0",
+    "image-webpack-loader": "^7.0.1",
+    "less": "^3.12.2",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.3.0",
+    "style-resources-loader": "^1.3.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.0.0"
+  }
+}

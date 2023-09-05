@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3283457 */
+  src: url('iconfont.woff2?t=1656930013993') format('woff2'),
+       url('iconfont.woff?t=1656930013993') format('woff'),
+       url('iconfont.ttf?t=1656930013993') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ziyuanxhdpi:before {
+  content: "\e64c";
+}
+
+.icon-yixiajia:before {
+  content: "\e61e";
+}
+
+.icon-yiwancheng:before {
+  content: "\e602";
+}
+
+.icon-yiquxiao:before {
+  content: "\e603";
+}
+
+.icon-jinhangzhong:before {
+  content: "\e600";
+}
+
+.icon-smiling:before {
+  content: "\e63f";
+}
+
+.icon-wenjianjia:before {
+  content: "\ec17";
+}
+
+.icon-tupian:before {
+  content: "\e8ba";
+}
+
+.icon-kefu:before {
+  content: "\e658";
+}
+
+.icon-quxiao:before {
+  content: "\e627";
+}
+
+.icon-wancheng:before {
+  content: "\e609";
+}
+
+.icon-btc:before {
+  content: "\e8d5";
+}
+
+.icon-hr:before {
+  content: "\e60a";
+}
+
+.icon-nicheng:before {
+  content: "\e633";
+}
+
+.icon-zhuanhuan-01:before {
+  content: "\e648";
+}
+

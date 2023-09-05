@@ -1,0 +1,81 @@
+@import "~@/styles/common.less";
+@line-height: 30px;     //头部行高
+@border-bottom: #e6ecf2;   //个人中心下横线
+@bg-color: #9bf0d6;   // 头部标题背景色
+@lineHeight-des: 24px;    //行内文字行高
+@img-size: 30px;    //图片大小
+
+
+//公共表格头
+.table-title {
+  padding: 3px 6px;
+  font-size: @fontSize14;
+  border-bottom: 1px solid @border-bottom;
+  background-color: @bg-color;
+}
+.nav-btn{
+  margin: 5px;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  height: 100%;
+  background-color: rgb(84, 92, 100);
+  cursor: pointer;
+  position: absolute;
+}
+.btn .btn-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  padding-top: 5px;
+}
+.btn-item.active{
+  color: #ffd04b;
+}
+.btn-item:hover{
+  background-color: rgb(67, 74, 80);
+}
+.btn .btn-item i{
+  margin: 5px;
+  font-size: 18px;
+}
+
+.main {
+  max-width: @maxWidth;
+  min-width: @minWidth;
+  margin: auto;
+  background-color: #f0f0f0;
+  height: 100%;
+  ::v-deep .el-menu {
+    height: 100%;
+    padding-top: 5px;
+    .el-menu-item {
+      min-width: 0;
+      line-height: 30px;
+      height: 30px;
+    }
+  }
+  ::v-deep .el-main {
+    padding: 10px;
+    .el-card__body {
+      padding: 10px;
+    }
+  }
+}
+
+.content{
+  width: 1080px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  height: 100%;
+  position: absolute;
+  left: 120px;
+  top: 0;
+}

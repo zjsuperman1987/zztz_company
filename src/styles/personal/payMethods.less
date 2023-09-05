@@ -1,0 +1,38 @@
+@import "~@/styles/common.less";
+@import "~@/styles/personal/index.less";
+
+.user-wrap-payment {
+  .content {
+    padding: 0 15px 15px 15px;
+    .item-payment {
+      font-size: @fontSize14;
+      display: flex;
+      align-items: center;
+      padding: 15px 10px;
+      border-bottom: 1px solid @border-bottom;
+      .full-name-left {
+        display: flex;
+        align-items: center;
+        .name {
+          font-size: @fontSize12;
+        }
+        .name-input {
+          /deep/.el-input__inner {
+            background: @bg-color;
+            border-radius: 0;
+            border: none;
+          }
+        }
+        .description {
+          font-size: @fontSize12;
+        }
+      }
+      .modify {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  }
+}

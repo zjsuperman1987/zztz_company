@@ -1,0 +1,114 @@
+{
+  "id": "3283457",
+  "name": "bite",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7791978",
+      "name": "密码",
+      "font_class": "ziyuanxhdpi",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "6260321",
+      "name": "已下架",
+      "font_class": "yixiajia",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "10299105",
+      "name": "已完成",
+      "font_class": "yiwancheng",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10299547",
+      "name": "已取消",
+      "font_class": "yiquxiao",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "10299094",
+      "name": "进行中",
+      "font_class": "jinhangzhong",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "122163",
+      "name": "笑脸",
+      "font_class": "smiling",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "4893191",
+      "name": "文件夹",
+      "font_class": "wenjianjia",
+      "unicode": "ec17",
+      "unicode_decimal": 60439
+    },
+    {
+      "icon_id": "11372711",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e8ba",
+      "unicode_decimal": 59578
+    },
+    {
+      "icon_id": "782361",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "7017738",
+      "name": "取消",
+      "font_class": "quxiao",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "9922138",
+      "name": "完成",
+      "font_class": "wancheng",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "7735919",
+      "name": "btc",
+      "font_class": "btc",
+      "unicode": "e8d5",
+      "unicode_decimal": 59605
+    },
+    {
+      "icon_id": "19657558",
+      "name": "横线",
+      "font_class": "hr",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "26922911",
+      "name": "昵称",
+      "font_class": "nicheng",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "26954409",
+      "name": "转换-01",
+      "font_class": "zhuanhuan-01",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    }
+  ]
+}

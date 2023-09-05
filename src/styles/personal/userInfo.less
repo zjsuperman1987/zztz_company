@@ -1,0 +1,45 @@
+@import "~@/styles/common.less";
+@import "~@/styles/personal/index.less";
+/deep/.el-col {
+  min-height: 1px;
+}
+.isIconfont(@color) {
+  color: @color;
+  font-size: @img-size;
+  margin-right: 10px;
+}
+.item-nav {
+  display: flex;
+  align-items: center;
+  padding: 6px 15px;
+  border-bottom: 1px solid @border-bottom;
+  .time {
+    font-size: @fontSize12;
+    color: @descColor;
+  }
+  .common {
+    display: flex;
+    align-items: center;
+    .icon-telegram-plane {
+      .isIconfont(#7383EC);
+    }
+    .icon-jiaoyimima {
+      .isIconfont(#91a9e3);
+    }
+    .icon-anquanyanzheng {
+      .isIconfont(rgb(9,187,7));
+    }
+    .icon-mima {
+      .isIconfont(#FFCC33);
+    }
+    .description {
+      .subtitle {
+        font-size: @fontSize14;
+        line-height: @lineHeight-des;
+      }
+      .tip {
+        font-size: @fontSize12;
+      }
+    }
+  }
+}

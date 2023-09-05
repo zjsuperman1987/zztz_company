@@ -1,0 +1,52 @@
+
+@descColor: #999;
+@unit-price: #0da88b;  //单价颜色
+@buy: #67c23a; // 购买颜色
+@sell: #ef5656;  // 出售颜色
+@aColor: #337ab7;  // a标签颜色
+@aHover: #c35501;  // a标签hover颜色
+@fff: #fff;   // 白色
+@blue: #3c648c;   //element蓝色
+@color-primary: rgb(24, 144, 255);  // 主题色
+
+
+//header
+@margin-left-header: 20px;  // a标签间隔
+//main
+@min-height-main: 800px;  // 最小高度设置
+@min-height-login: 600px;  // 最小高度设置
+@maxWidth: 1200px;
+@minWidth: 800px;
+
+// base size
+@fontSize12: 12px;  //描述性文字大小
+@fontSize14: 14px;  //提示性文字大小
+@fontSize18: 18px;  //醒目性文字size
+@fontSize20: 20px;  //title文字大小
+@buy-sell-size: 22px; //购买出售字体大小
+
+// border setting
+@border-radius: 4px;
+
+//公共头
+.common-header {
+  padding: 30px 0;
+  background-color: #1b2945;
+  display: flex;
+  align-items: center;
+  .header-content {
+    max-width: @maxWidth;
+    min-width: @minWidth;
+    margin: auto;
+    width: 100%;
+    .name {
+      font-size: @fontSize20;
+      color: @fff;
+      margin-left: 10px;
+    }
+  }
+}
+
+:export {
+  theme: @color-primary;
+}

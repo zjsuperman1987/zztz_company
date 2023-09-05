@@ -1,0 +1,29 @@
+//  @mySelector: banner; .@{mySelector}  表示选择器 被编译为.banner{}
+@import "~@/styles/common.less";
+
+.main-container {
+  position: relative;
+  padding: 10px;
+  max-width: @maxWidth;
+  min-width: @minWidth;
+  margin: 0 auto;
+  &-content {
+    background: #e5e5e5;
+    padding: 4px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .el-divider {
+    margin: 6px 0;
+    background: #300A0A;
+  }
+  .nav-foot {
+    .text {
+      padding: 10px;
+      text-indent: 24px;
+      background-color: rgb(254, 254, 242);
+    }
+  }
+}

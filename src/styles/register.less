@@ -1,0 +1,82 @@
+@import "~@/styles/common.less";
+
+.main {
+  padding: 20px;
+  .main-register {
+    width: 350px;
+    margin: auto;
+    .login-button {
+      width: 100%;
+    }
+    .re-img {
+      width: 50%;
+      margin: auto;
+      img {
+        width: 100%;
+      }
+    }
+    .register-form {
+      background: #fefef2;
+      //border-radius: @border-radius;
+      //border: 1px solid #ddd;
+      padding: 30px;
+      ::v-deep {
+        .el-form-item {
+          margin-bottom: 24px;
+        }
+        .el-input__suffix {
+          .el-input__icon {
+            height: 32px;
+            line-height: 32px;
+          }
+        }
+        .el-input__inner {
+          height: 32px;
+          line-height: 32px;
+          padding: 0 26px;
+        }
+      }
+      .has-account {
+        font-size: @fontSize12;
+        .login {
+          margin-left: 10px;
+          color: @aColor;
+        }
+      }
+      h1 {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      .tips {
+        font-size: @fontSize12;
+        color: @descColor;
+        margin-bottom: 22px;
+        a {
+          color: @aColor;
+        }
+      }
+    }
+  }
+  .bottom {
+    font-size: @fontSize12;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    .line {
+      margin: 20px 0;
+      height: 1px;
+      background: linear-gradient(to right, #fff, @descColor , #fff);
+    }
+    .bottom-link {
+      a {
+        color: @aColor;
+        margin: 0 10px;
+      }
+    }
+    .copy-right {
+      padding: 10px 0;
+    }
+  }
+}
+

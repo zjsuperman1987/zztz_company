@@ -1,0 +1,125 @@
+@import "transition";
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+  //background: url("../assets/image/bg_body.gif") left top;
+  background: #f0f2f5;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+#app {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+a {
+  outline: none;
+  color: #444;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: #c45500!important;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.width400 {
+  width: 400px;
+}
+.width350 {
+  width: 350px;
+}
+.width500 {
+  width: 500px;
+}
+.width600 {
+  width: 600px;
+}
+.width700 {
+  width: 700px;
+}
+.width800 {
+  width: 800px;
+}
+
+#router-title {
+  margin-bottom: 6px;
+  background: #AFBBBE;
+  padding: 4px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  #title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0da88b;
+  }
+}
+
+// 全局附件图片样式
+.attach_image {
+  max-width: 100%;
+}
+
+// 自定义提交按钮 id 提高优先级
+#custom-submit-button {
+  padding: 6px 20px;
+}
+
+// 分页器的页码选择下拉框
+.pageSize-select {
+  .el-select-dropdown__item {
+    height: 24px;
+    line-height: 24px;
+  }
+}
+
+// 滚动条style 只有是webkit的内核生效 ----START----
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  width: 6px;
+  background: rgba(#727373, 0.1);
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(#727373, 0.5);
+  background-clip: padding-box;
+  min-height: 28px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(#727373, 1);
+}
+// 滚动条style ----END----
+
+.goods-loading {
+  .el-loading-text,.el-icon-loading {
+    color: #fff;
+  }
+}
